@@ -1,4 +1,5 @@
 <?php
+// array associativo
 // Estrutura para Parcelamento
 $parcelamento = [
     "avista" => 0.08,  // Taxa de 8% para pagamento à vista
