@@ -89,4 +89,52 @@ O curso combina teoria e prática. Cada módulo contém aulas explicativas com e
 * **Telefone**: (11) 1234-5678
 
 ---
+# Principais **funções de manipulação de strings em PHP**, sem código e com uma breve ideia do que cada uma faz.
+
+### 🔤 Funções básicas de string
+
+* **strlen** – tamanho da string
+* **strtolower** – tudo em minúsculas
+* **strtoupper** – tudo em maiúsculas
+* **ucfirst** – primeira letra maiúscula
+* **ucwords** – primeira letra de cada palavra maiúscula
+* **trim** – remove espaços no início e fim
+* **ltrim** – remove espaços do início
+* **rtrim** – remove espaços do fim
+
+### 🔎 Busca e comparação
+
+* **strpos** – posição de um texto dentro de outro
+* **stripos** – igual ao strpos, mas ignora maiúsculas/minúsculas
+* **strrpos** – última ocorrência de um texto
+* **strcmp** – compara duas strings
+* **strcasecmp** – compara ignorando maiúsculas/minúsculas
+
+### ✂️ Corte e substituição
+
+* **substr** – extrai parte da string
+* **str_replace** – substitui texto
+* **str_ireplace** – substitui ignorando maiúsculas/minúsculas
+* **substr_replace** – substitui parte da string
+
+### 🔄 Conversão e divisão
+
+* **explode** – divide string em array
+* **implode** (ou **join**) – junta array em string
+* **str_split** – divide string em partes menores
+
+### 🧹 Limpeza e formatação
+
+* **htmlspecialchars** – converte caracteres especiais HTML
+* **htmlentities** – converte todos os caracteres HTML
+* **addslashes** – adiciona barras de escape
+* **stripslashes** – remove barras de escape
+
+### 🌍 Strings multibyte (acentos)
+
+* **mb_strlen**
+* **mb_substr**
+* **mb_strtolower**
+* **mb_strtoupper**
+
 
